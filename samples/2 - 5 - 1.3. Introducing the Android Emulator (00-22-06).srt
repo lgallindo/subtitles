@@ -1,0 +1,1482 @@
+1
+00:00:01,117 --> 00:00:11,117
+[MUSIC]
+
+2
+00:00:14,042 --> 00:00:15,046
+Well, hello.
+
+3
+00:00:15,046 --> 00:00:19,093
+In this video we're going to play with the
+Android emulator and I'm
+
+4
+00:00:19,093 --> 00:00:23,030
+going to show you, uh, some tips and tricks that we can do with it.
+
+5
+00:00:23,030 --> 00:00:26,710
+But, uh, first of all let's just have a bit of
+fun. We've got two of them running,
+
+6
+00:00:26,710 --> 00:00:30,104
+so why don't we send a message from one to the other.
+
+7
+00:00:30,104 --> 00:00:33,680
+Ah, let's start, uh, messaging, on this emulator.
+
+8
+00:00:35,660 --> 00:00:36,160
+Okay.
+
+9
+00:00:38,170 --> 00:00:45,210
+And, uh, we'll write a new message.
+Okay, so to, who should we send it to?
+
+10
+00:00:45,210 --> 00:00:49,170
+Well, for this, we need to know the, uh, how to send it to
+
+11
+00:00:49,170 --> 00:00:53,900
+the other emulator, and the trick to know
+is that, uh, we're going to
+
+12
+00:00:53,900 --> 00:00:57,600
+use this number up here in the title bar,
+so you'll see that
+
+13
+00:00:57,600 --> 00:01:02,520
+we have the name of the emulator instance
+but also this numberâthis 5554.
+
+14
+00:01:02,520 --> 00:01:03,800
+In fact the
+
+15
+00:01:03,800 --> 00:01:08,515
+first emulator that you start will always
+have the number
+
+16
+00:01:08,515 --> 00:01:12,000
+5554. Ah, the second emulator will have two more than that, so 5556.
+
+17
+00:01:12,000 --> 00:01:16,400
+The third emulator h-if we had a third one
+running, would be 5558, etcetera.
+
+18
+00:01:16,400 --> 00:01:18,610
+You can have up to 16 emulators.
+
+19
+00:01:18,610 --> 00:01:24,250
+I've never run 16 at a time, but I'm sure
+someone in this course will tr-will try to.
+
+20
+00:01:24,250 --> 00:01:30,100
+So, let's, uh, send a message
+
+21
+00:01:30,100 --> 00:01:40,450
+to 5554, and we will say, "Hi," okay, right,
+"let me out
+
+22
+00:01:40,450 --> 00:01:44,705
+I'm an emulator," or something like that.
+So we'll click the Send button.
+
+23
+00:01:44,705 --> 00:01:50,930
+Okay, so this number, this 5554, is a port
+number.
+
+24
+00:01:50,930 --> 00:01:55,300
+Now what is a port?
+Well, just like, uh, when you dock
+
+25
+00:01:55,300 --> 00:01:59,110
+a ship at a port, it's a way for us
+
+26
+00:01:59,110 --> 00:02:03,655
+to connect to, uh, programs which are
+running on a computer.
+
+27
+00:02:03,655 --> 00:02:05,230
+Ah, okay, let's start this up.
+
+28
+00:02:05,230 --> 00:02:07,520
+Oh, look, we have a message.
+There we go.
+
+29
+00:02:07,520 --> 00:02:10,760
+So we have a message from 5556, the other
+emulator.
+
+30
+00:02:10,760 --> 00:02:16,890
+And we could respond to that, and, uh, so-and text message, uh, each emulator for free.
+
+31
+00:02:18,740 --> 00:02:20,420
+Uh, so, the next segment
+
+32
+00:02:20,420 --> 00:02:25,090
+I'm going to show you is that, uh, the emulator, in addition to supporting the, uh,
+
+33
+00:02:26,590 --> 00:02:32,198
+keep the hardware keypads over here, so,
+here we are; we have some buttons like
+
+34
+00:02:32,198 --> 00:02:38,350
+the home menu, ect-the home, for example.
+
+35
+00:02:38,350 --> 00:02:43,350
+Um, we can also control, uh, whether the emulator is in landscape or portrait.
+
+36
+00:02:43,350 --> 00:02:45,160
+So, uh, let's do that.
+
+37
+00:02:45,160 --> 00:02:49,155
+So on a, this Mac I'm going to press
+Ctrl and F11.
+
+38
+00:02:49,155 --> 00:02:49,940
+Ah-ha!
+
+39
+00:02:49,940 --> 00:02:57,320
+And it's flipped over, and it, uh, restarts the home screen, ah, in its, ah, landscape mode.
+
+40
+00:02:57,320 --> 00:02:58,150
+Now, why is that useful?
+
+41
+00:02:58,150 --> 00:03:02,490
+Well, the answer is that, behind the
+scenes, um, when a phone call
+
+42
+00:03:02,490 --> 00:03:05,590
+comes in or when the user flips the phone
+over to its side, 
+
+43
+00:03:06,980 --> 00:03:10,290
+uh, the system does quite a bit of work and
+your app may have to
+
+44
+00:03:10,290 --> 00:03:11,620
+do quite a bit of work as well.
+
+45
+00:03:11,620 --> 00:03:15,490
+Perhaps it has a different layout, uh, ah,
+configuration.
+
+46
+00:03:15,490 --> 00:03:18,620
+And so being able to test it on the
+emulator,
+
+47
+00:03:18,620 --> 00:03:22,650
+uh, is an important part of getting your app
+ready for publishing.
+
+48
+00:03:22,650 --> 00:03:28,260
+Right, so we can flip it back.
+Ah, ah, one surprise, uh, I had
+
+49
+00:03:28,260 --> 00:03:33,960
+was that, uh, you've got to release both the
+Ctrl key and F-F11 for this to work.
+
+50
+00:03:33,960 --> 00:03:35,460
+Uh, I'm holding down the Ctrl key
+
+51
+00:03:35,460 --> 00:03:38,048
+now and pressing it multiple times does
+nothing.
+
+52
+00:03:38,048 --> 00:03:44,040
+It, it, it ignores the function key until
+I let go of, uh, both the Ctrl key and F11.
+
+53
+00:03:44,040 --> 00:03:46,120
+So if you're wondering why it's not
+working, why it
+
+54
+00:03:46,120 --> 00:03:49,380
+can't flip, make sure that you let go of
+both.
+
+55
+00:03:49,380 --> 00:03:50,020
+Okay.
+
+56
+00:03:50,020 --> 00:03:51,980
+Let's pop it back.
+
+57
+00:03:51,980 --> 00:03:55,070
+Now there are other keys as well, and I'll
+show
+
+58
+00:03:55,070 --> 00:03:58,900
+you later on in this video the, the link
+for that.
+
+59
+00:03:58,900 --> 00:04:00,550
+Uh, right now,
+
+60
+00:04:00,550 --> 00:04:06,340
+uh, let's, um, show you the secret, uh, the, uh, secret way into the emulator.
+
+61
+00:04:07,370 --> 00:04:10,870
+Um,and for that we are going to need to
+connect to this, uh, port number, this 5556.
+
+62
+00:04:12,810 --> 00:04:15,910
+Uh, and then we can start talking to the
+secret
+
+63
+00:04:15,910 --> 00:04:18,370
+interface, if you like of the, of the
+emulator.
+
+64
+00:04:18,370 --> 00:04:23,030
+For this, uh, we'll use a, uh, an old tool called, uh, Telnet,
+
+65
+00:04:23,030 --> 00:04:26,400
+uh, which allows us to type commands directly, uh, and connect
+
+66
+00:04:26,400 --> 00:04:31,566
+to a particular port on a certain machine.
+Right, so, on a Mac how do we do that?
+
+67
+00:04:31,566 --> 00:04:36,845
+Well, first of all we will start a terminal,
+okay.
+
+68
+00:04:36,845 --> 00:04:40,110
+Ah, so this is our terminal instance.
+
+69
+00:04:40,110 --> 00:04:45,450
+And I can now type telnet, and connect to
+somewhere.
+
+70
+00:04:45,450 --> 00:04:48,920
+For example, let's have some fun, let's
+connect to the BBC.
+
+71
+00:04:48,920 --> 00:04:50,496
+Hey, BBC,
+
+72
+00:04:50,496 --> 00:04:56,250
+bbc.co.uk.
+And if I was a, uh, web browser
+
+73
+00:04:56,250 --> 00:05:00,680
+like Firefox, Safari, Internet Explorer,
+by default I would connect to port 80.
+
+74
+00:05:00,680 --> 00:05:03,090
+So let's connect to port 80 on that
+machine.
+
+75
+00:05:04,190 --> 00:05:09,340
+So, I've now connected to a distant
+machine over in the UK, and here's where I
+
+76
+00:05:09,340 --> 00:05:15,974
+would request a particular webpage, um, so I would, there we go.
+
+77
+00:05:17,410 --> 00:05:19,900
+Uh, I was not fast enough; let's try it again.
+
+78
+00:05:19,900 --> 00:05:24,510
+Uh, let's connect here and, type some
+gibberish.
+
+79
+00:05:24,510 --> 00:05:29,600
+And I guess what the, the server, uh, the BBC server did not
+
+80
+00:05:29,600 --> 00:05:34,450
+like my, my, my gibberish and said, hah, I
+do not understand.
+
+81
+00:05:34,450 --> 00:05:39,940
+So it, um, it responded with, "Hey 400, bad
+request"
+
+82
+00:05:39,940 --> 00:05:42,430
+and sentâthe client sent a bad request and
+
+83
+00:05:42,430 --> 00:05:44,540
+closed the connection on us.
+
+84
+00:05:44,540 --> 00:05:48,718
+Um, so if we were a more polite, uh, web client, we would of
+
+85
+00:05:48,718 --> 00:05:54,510
+course, uh, would've sent the correct, uh, codes to request a particular, uh, web page,
+
+86
+00:05:54,510 --> 00:05:56,970
+and we would, and the server would have sent back information, or sent
+
+87
+00:05:56,970 --> 00:06:00,750
+back, uh, an image, or sent back the text of the web page.
+
+88
+00:06:00,750 --> 00:06:03,730
+Uh, right, now we've finished, uh, playing at the BBC;
+
+89
+00:06:03,730 --> 00:06:09,590
+Let's, uh, connect to the, ah, emulator.
+
+90
+00:06:09,590 --> 00:06:13,460
+For this we need to know where it is and
+which port number.
+
+91
+00:06:13,460 --> 00:06:19,360
+Uh, so it, it's, uh, on the local host so, I do telnet space localhost and Port 80.
+
+92
+00:06:19,360 --> 00:06:25,390
+But wait, what if you are a Windows user,
+ah, how do you get, ah, telnet?
+
+93
+00:06:25,390 --> 00:06:30,753
+Well for that you might start by googling, uh, How to start telnet on Windows.
+
+94
+00:06:30,753 --> 00:06:34,730
+And, uh, here's a web query I performed
+earlier; here it is.
+
+95
+00:06:36,420 --> 00:06:41,850
+And you discover that on Windows 7 and
+Windows 8, uh, you have to jump through
+
+96
+00:06:41,850 --> 00:06:47,400
+some hoops first to reinstall, uh, telnet.
+It's no longer available by default.
+
+97
+00:06:47,400 --> 00:06:49,670
+And here's the steps you'll need to go
+through.
+
+98
+00:06:49,670 --> 00:06:51,850
+You'll need to open the Control Panel,
+
+99
+00:06:51,850 --> 00:06:56,570
+ah, find Programs and Features, and, and then look for Windows Features,
+
+100
+00:06:56,570 --> 00:07:01,300
+ah, and then, fe-, inside Windows Features you'll find a checkbox for the Telnet Client.
+
+101
+00:07:01,300 --> 00:07:06,410
+So, clicking on that will af-, and then
+clicking on OK, will re-install, ah, ah,
+
+102
+00:07:06,410 --> 00:07:10,450
+Telnet client for you.
+Right, so now you've got telnet, um, what do
+
+103
+00:07:10,450 --> 00:07:16,460
+you need to do to start it? Um, I-, you
+have a Start menu, uh, enter Cmd,
+
+104
+00:07:16,460 --> 00:07:21,720
+so this is, uh, Windows equivalent of me typing, uh, terminal
+
+105
+00:07:21,720 --> 00:07:26,930
+in my Mac. And once you're inside the, ah,
+command
+
+106
+00:07:26,930 --> 00:07:32,580
+window, ah, you can type telnet.
+
+107
+00:07:32,580 --> 00:07:37,300
+Now these instructions suggest just you
+simply press Enter, but, uh, rather than do
+
+108
+00:07:37,300 --> 00:07:42,360
+that, ah, you could actually, ah, specify the, uh, machine that you want
+
+109
+00:07:42,360 --> 00:07:47,350
+to connect to and the port number, as we did over
+
+110
+00:07:47,350 --> 00:07:53,190
+here.
+So, we are going to connect now to, uh, it's, uh,
+
+111
+00:07:53,190 --> 00:07:57,360
+there we go, uh, local host port 80.
+
+112
+00:07:57,360 --> 00:07:59,450
+Right, so let's do this.
+
+113
+00:07:59,450 --> 00:08:02,400
+Um, but we don't want port 80.
+We want a different port.
+
+114
+00:08:02,400 --> 00:08:05,860
+We want to connect to the emulator, so
+let's connect to, uh,
+
+115
+00:08:05,860 --> 00:08:10,810
+either 5554, the first emulator instance,
+or my second emulator instance 5556.
+
+116
+00:08:10,810 --> 00:08:13,660
+Here we go.
+All right.
+
+117
+00:08:13,660 --> 00:08:14,540
+We are in.
+
+118
+00:08:14,540 --> 00:08:18,310
+We are connected.
+I'm now talking to, uh, the emulator.
+
+119
+00:08:18,310 --> 00:08:21,750
+I'm talking to the Android console that's, uh, behind this emulator.
+
+120
+00:08:21,750 --> 00:08:27,120
+And, uh, very helpfully it provides a little help menu so
+
+121
+00:08:27,120 --> 00:08:29,370
+I can type help and get a list of
+commands.
+
+122
+00:08:31,002 --> 00:08:37,669
+Uh, so one of the useful commands is, uh, I could, uh, send a text message, an SMS
+
+123
+00:08:37,669 --> 00:08:44,336
+message, so let's send an SMS message to, ah, this Android instance, and
+
+124
+00:08:44,336 --> 00:08:51,960
+we'll say this message is from, let's say,
+787, and we'll say Hello Emulator.
+
+125
+00:08:51,960 --> 00:08:52,460
+Woops.
+
+126
+00:08:55,120 --> 00:08:57,460
+I didn't get the syntax right.
+Well, we forgot to send,
+
+127
+00:08:59,490 --> 00:09:01,540
+ah, sms send,
+
+128
+00:09:01,540 --> 00:09:05,690
+and then we need to say who it's from, so
+787 blah blah blah.
+
+129
+00:09:05,690 --> 00:09:07,250
+And we'll say, Hello!
+
+130
+00:09:07,250 --> 00:09:09,750
+Okay.
+
+131
+00:09:09,750 --> 00:09:11,380
+Back on this side we'll see at the top
+
+132
+00:09:11,380 --> 00:09:15,760
+here we get, a little message appeared at
+the top.
+
+133
+00:09:15,760 --> 00:09:18,770
+And if I pull this down,
+there it is,
+
+134
+00:09:18,770 --> 00:09:19,790
+I've got it there.
+
+135
+00:09:19,790 --> 00:09:24,580
+Okay, let's pull it down.
+I've got my little hello message.
+
+136
+00:09:24,580 --> 00:09:24,850
+All
+
+137
+00:09:24,850 --> 00:09:25,100
+right
+
+138
+00:09:25,100 --> 00:09:27,700
+So now I could write and test apps that
+
+139
+00:09:27,700 --> 00:09:30,830
+respond to text messages and test them
+inside the emulator.
+
+140
+00:09:31,900 --> 00:09:37,790
+Uh, I can also from, uh this con-, this, the console, ah, control what
+
+141
+00:09:37,790 --> 00:09:40,300
+the emulator thinks the battery level is
+doing, so right now,
+
+142
+00:09:40,300 --> 00:09:45,350
+it thinks it's at 50%, and over here,
+after that
+
+143
+00:09:45,350 --> 00:09:48,670
+message disappears, you'll see it's, uh,
+showing that it's connected.
+
+144
+00:09:48,670 --> 00:09:49,890
+It's recharging, and it's
+
+145
+00:09:49,890 --> 00:09:54,380
+recharging from 50%.
+So let's, um, change that.
+
+146
+00:09:54,380 --> 00:10:01,560
+Right, so I will do help power, and we can
+do power change the capacity to say zero.
+
+147
+00:10:02,770 --> 00:10:07,860
+Ah, okay, and you'll see now in our little
+window, absolute, oh, okay.
+
+148
+00:10:07,860 --> 00:10:11,300
+Message disappears that it's actually
+recharging from zero.
+
+149
+00:10:12,380 --> 00:10:15,050
+Ah, so again, we could, uh, test our apps
+
+150
+00:10:15,050 --> 00:10:17,350
+easily which respond to power messages.
+
+151
+00:10:18,570 --> 00:10:22,800
+Another useful thing we can do here is to
+change the window scale.
+
+152
+00:10:22,800 --> 00:10:27,910
+So if I do help window, we'll see that we
+have one command called scale, so let's
+
+153
+00:10:27,910 --> 00:10:34,790
+make it a smaller window, say 0.5.
+And we have a little window somewhere.
+
+154
+00:10:34,790 --> 00:10:36,090
+Where have you gone.
+There.
+
+155
+00:10:38,020 --> 00:10:40,910
+Uh, you can try to make the scale, ah, larger.
+
+156
+00:10:40,910 --> 00:10:46,220
+In practice I've found this is, a, a, ,a, a easy way and fast way to crash
+
+157
+00:10:46,220 --> 00:10:51,220
+the emulator. Uh, and then one final thing which I've, uh, often
+
+158
+00:10:51,220 --> 00:10:56,650
+used is the, the avd command to
+temporarily pause the execution.
+
+159
+00:10:56,650 --> 00:11:00,850
+So, um, in avd, you'll see there's a start and stop
+
+160
+00:11:00,850 --> 00:11:06,140
+command, so I can do avd stop, and this has
+
+161
+00:11:06,140 --> 00:11:12,120
+paused, uh, the emulator, so it's not going to respond to any events right now.
+
+162
+00:11:12,120 --> 00:11:17,050
+Uh, this is, uh, useful if I'm running my laptop without power, and
+
+163
+00:11:17,050 --> 00:11:21,570
+this cuts the amount of power used by the
+emulator by about half.
+
+164
+00:11:21,570 --> 00:11:25,890
+It's still using some CPU power, even
+though we've, we've asked it to stop.
+
+165
+00:11:25,890 --> 00:11:28,310
+Um, but it's a useful trick if you're, if
+you're trying to
+
+166
+00:11:28,310 --> 00:11:31,150
+make your, your own actual laptop battery
+run for as long as
+
+167
+00:11:31,150 --> 00:11:34,110
+possible and you don't want to quit the
+emulator.
+
+168
+00:11:34,110 --> 00:11:36,010
+Okay, so let's, uh, start it again.
+
+169
+00:11:37,260 --> 00:11:39,810
+Okay, you'll also notice there's a
+snapshot interface there
+
+170
+00:11:39,810 --> 00:11:46,000
+and you can use that to, uh, save snapshots and, uh, d-, list snapshots.
+
+171
+00:11:46,000 --> 00:11:50,180
+Uh, this is a way so you can, ah, restart your emulater instance from
+
+172
+00:11:50,180 --> 00:11:54,220
+a particular known state, perhaps, uh, with a couple of applications already installed.
+
+173
+00:11:54,220 --> 00:11:55,150
+That kind of thing.
+
+174
+00:11:55,150 --> 00:11:56,400
+This is, this is kind
+
+175
+00:11:56,400 --> 00:11:57,410
+of fun.
+
+176
+00:11:57,410 --> 00:12:01,280
+Let's, uh, let's, uh, let's call our, our emulator. So, into
+
+177
+00:12:01,280 --> 00:12:04,830
+the gsm menu, discover that we can [laughs] call it.
+
+178
+00:12:04,830 --> 00:12:08,826
+So all right. Hey, well, we better give it
+
+179
+00:12:08,826 --> 00:12:13,536
+a number that we're calling from, so there
+we go.
+
+180
+00:12:13,536 --> 00:12:15,583
+And. [pause]
+
+181
+00:12:15,583 --> 00:12:21,530
+Our phone, somebody's calling our
+emulator.
+
+182
+00:12:21,530 --> 00:12:25,010
+Unfortunately the emulator doesn't, ah, fully support voice calls,
+
+183
+00:12:25,010 --> 00:12:27,390
+and we can't make real outgoing calls, but
+
+184
+00:12:27,390 --> 00:12:31,830
+again, this a way to be able to test our
+apps that might respond to calls.
+
+185
+00:12:31,830 --> 00:12:35,790
+Also, Android will, um, pull the rug out from
+
+186
+00:12:35,790 --> 00:12:39,050
+underneath running applications when the
+phone is running.
+
+187
+00:12:39,050 --> 00:12:40,975
+Ah, a lo-, a lot of behind the scenes works.
+
+188
+00:12:40,975 --> 00:12:45,810
+Ah, a lot of behind the scenes functionality
+happens that the user doesn't realize
+
+189
+00:12:45,810 --> 00:12:47,540
+where and
+
+190
+00:12:47,540 --> 00:12:51,650
+the Android operating system will
+temporarily put an app
+
+191
+00:12:51,650 --> 00:12:54,300
+on ice, if you like, and then restore it
+later,
+
+192
+00:12:55,360 --> 00:12:58,580
+um, just in the same way that on a stage, ah, the
+
+193
+00:12:58,580 --> 00:13:01,480
+actors might disappear during the interval
+and then when we pull
+
+194
+00:13:01,480 --> 00:13:03,950
+back the curtain again all of the actors
+are back in
+
+195
+00:13:03,950 --> 00:13:06,770
+places, and the scenery is back, and the
+props are ready.
+
+196
+00:13:06,770 --> 00:13:09,050
+Ah, Android does the same thing with apps in
+order
+
+197
+00:13:09,050 --> 00:13:13,070
+to manage the very limited resources that
+a phone has.
+
+198
+00:13:13,070 --> 00:13:16,720
+Okay, so, uh, let, we'll cancel the call, um, right.
+
+199
+00:13:16,720 --> 00:13:19,130
+And we need to give it the number again,
+6754321.
+
+200
+00:13:19,130 --> 00:13:23,710
+Ha, and we hung up on the emulator.
+
+201
+00:13:23,710 --> 00:13:26,590
+Okay, so that's it for now; you've watched
+me play with the emulator.
+
+202
+00:13:26,590 --> 00:13:33,570
+Now it's time for you to, to learn how to
+use these emulators, so, um, let's see.
+
+203
+00:13:33,570 --> 00:13:38,250
+I, go to Google Chrome.
+I want to show you two things on
+
+204
+00:13:38,250 --> 00:13:41,770
+the, um, developer website.
+
+205
+00:13:41,770 --> 00:13:44,150
+Uh, first of all is, uh, where can I
+
+206
+00:13:44,150 --> 00:13:48,190
+find the instructions for the, the
+keyboard shortcuts.
+
+207
+00:13:48,190 --> 00:13:49,760
+Uh, they're not immediately obvious.
+
+208
+00:13:49,760 --> 00:13:53,990
+They are actually just a, a little lower than
+you might expect.
+
+209
+00:13:53,990 --> 00:13:59,250
+Here I am on the developer.android.com,
+and, um, the
+
+210
+00:13:59,250 --> 00:14:03,340
+last section on the left, uh, left here is, um,
+we've
+
+211
+00:14:03,340 --> 00:14:05,980
+gone down past Download, we've gone past Workflows, we're past Support
+
+212
+00:14:05,980 --> 00:14:12,050
+Library. Inside Tools Help, uh you'll find in
+here the emulator.
+
+213
+00:14:12,050 --> 00:14:16,100
+And this lists the keyboard shortcuts, uh, that you can use.
+
+214
+00:14:16,100 --> 00:14:18,910
+And like I say, the most useful one I find
+has been
+
+215
+00:14:18,910 --> 00:14:21,060
+the ability to swap between different
+
+216
+00:14:21,060 --> 00:14:23,710
+layout orientations, either the portrait
+or landscape.
+
+217
+00:14:23,710 --> 00:14:28,605
+So, uh, make sure you practice that,
+and also see if, uh, full screen,
+
+218
+00:14:28,605 --> 00:14:32,026
+Alt+Enter works on your system as well.
+
+219
+00:14:32,026 --> 00:14:35,210
+And finally, let's, uh, talk about the speed of the eliminator and what
+
+220
+00:14:35,210 --> 00:14:37,490
+you can do to speed it up on your system.
+
+221
+00:14:38,600 --> 00:14:41,300
+So, um, if you're lucky you will be able
+
+222
+00:14:41,300 --> 00:14:46,642
+to get the, uh, Intel accelerator technology
+working for you.
+
+223
+00:14:46,642 --> 00:14:53,520
+A word of caution though at this point. At this moment in time, uh, uh, Apple has just released a maverick,
+
+224
+00:14:53,520 --> 00:14:59,620
+and the current available version of the, ah, technology
+
+225
+00:14:59,620 --> 00:15:03,570
+accelerator, the accelerator technology
+does not work well with Maverick.
+
+226
+00:15:03,570 --> 00:15:04,440
+Does not play well.
+
+227
+00:15:04,440 --> 00:15:07,440
+So, hopefully by the time you look at this, um, if you've
+
+228
+00:15:07,440 --> 00:15:12,760
+got Maverick installed, then the HAXM
+technology will have been updated.
+
+229
+00:15:12,760 --> 00:15:15,290
+If you cannot use the HAXM technology then I encourage
+
+230
+00:15:15,290 --> 00:15:19,220
+you to play with both the arm emulator and
+the
+
+231
+00:15:19,220 --> 00:15:23,670
+Intel, ah, emulator, to see one, which one is faster for you.
+
+232
+00:15:23,670 --> 00:15:26,730
+You may find, as I did, ah, that the latest
+
+233
+00:15:26,730 --> 00:15:30,350
+emulator is a little bit slower than the
+earlier ones.
+
+234
+00:15:31,370 --> 00:15:34,980
+Um, so, if I just, ah, talk about timings for a
+moment.
+
+235
+00:15:34,980 --> 00:15:37,020
+Okay, where is my...
+
+236
+00:15:37,020 --> 00:15:38,040
+Here it is.
+
+237
+00:15:38,040 --> 00:15:41,820
+Okay. Ah, if I just talk about, uh, timings for a moment.
+
+238
+00:15:41,820 --> 00:15:43,480
+Uh, let's see what we've got.
+
+239
+00:15:45,960 --> 00:15:50,420
+Um, I, I tried with four different instances
+here, so
+
+240
+00:15:50,420 --> 00:15:53,610
+we have the early versions of Android, the, uh, level 10.
+
+241
+00:15:53,610 --> 00:15:59,400
+Here we go, the API level 10, and I tried
+starting up the emulator
+
+242
+00:15:59,400 --> 00:16:04,960
+in both the arm and Intel, and both of
+these took, uh, 30 seconds.
+
+243
+00:16:08,760 --> 00:16:12,070
+So, a little bit slow, but once you've
+started up you can keep uploading
+
+244
+00:16:12,070 --> 00:16:16,760
+new versions of your app to it and so that's, ah, not, not, not too terrible.
+
+245
+00:16:16,760 --> 00:16:19,765
+And as you saw, the emulator was, was, was, ah, useful.
+
+246
+00:16:19,765 --> 00:16:23,040
+On further, more modern operating system, ah,
+
+247
+00:16:24,480 --> 00:16:29,790
+ah, things are a little bit slow without the
+accelerator, so the, the ARM one was, ah,
+
+248
+00:16:29,790 --> 00:16:34,850
+75 seconds. [pause]
+The Intel
+
+249
+00:16:34,850 --> 00:16:38,576
+was 135
+
+250
+00:16:38,576 --> 00:16:45,170
+seconds.
+And, very slow.
+
+251
+00:16:45,170 --> 00:16:50,900
+So almost, ah, unusable.
+Um, so if you don't have, uh, accelerator
+
+252
+00:16:50,900 --> 00:16:55,170
+technology, you're going to, to find it an
+extremely frustrating, ah, experience to try to
+
+253
+00:16:55,170 --> 00:17:00,990
+use the latest Intel, ah, ah, ah, emulator.
+
+254
+00:17:00,990 --> 00:17:01,620
+Right.
+
+255
+00:17:01,620 --> 00:17:07,429
+So let's see what happens if we, ah, do install the, the technology accelerator.
+
+256
+00:17:07,429 --> 00:17:12,310
+All right. So, that's, out of this.
+Right, how do we do that?
+
+257
+00:17:12,310 --> 00:17:14,680
+Well, a reminder that we used the SDK
+manager.
+
+258
+00:17:15,700 --> 00:17:20,640
+And, ah, this tool allows us to configure which compartments we have, ah, locally.
+
+259
+00:17:20,640 --> 00:17:23,370
+So let me, just look at the things I've
+got installed.
+
+260
+00:17:23,370 --> 00:17:26,840
+And you'll see underneath the extras, ah, I
+
+261
+00:17:26,840 --> 00:17:31,910
+have the Intel x86 Emulator Accelerator or
+HAXM.
+
+262
+00:17:31,910 --> 00:17:38,850
+This, um, only, ah, accelerates the Intel images, not the arm images.
+
+263
+00:17:38,850 --> 00:17:44,810
+And its revision is, ah, revision three, so if
+you're looking at revisions four,
+
+264
+00:17:44,810 --> 00:17:48,670
+maybe that will be working, ah, well with, ah, Maverick.
+
+265
+00:17:48,670 --> 00:17:51,810
+Okay, so, l-let's go and have a look at
+that.
+
+266
+00:17:51,810 --> 00:17:54,140
+We've downloaded it, we've installed it,
+according to this, but
+
+267
+00:17:54,140 --> 00:17:57,900
+actually we haven't yet run it, so I need
+to go
+
+268
+00:17:57,900 --> 00:18:05,022
+and look at the SDK here. So we go into
+Extras and Intel,
+
+269
+00:18:05,022 --> 00:18:11,120
+and here is the hardware accelerated
+execution manager.
+
+270
+00:18:11,120 --> 00:18:14,630
+And on a Mac, we have a disk image file.
+
+271
+00:18:14,630 --> 00:18:15,490
+Let's open this.
+
+272
+00:18:17,450 --> 00:18:23,980
+You'll have a similar file in Windows.
+And, ah, notice that even though, ah,
+
+273
+00:18:25,060 --> 00:18:30,636
+Android thinks it's version 3, Intel calls
+this, ah, version 1.0.6.
+
+274
+00:18:30,636 --> 00:18:34,530
+So let's open this and just run through
+the installation procedure.
+
+275
+00:18:38,410 --> 00:18:39,380
+Ah, here's a surprise.
+
+276
+00:18:39,380 --> 00:18:43,340
+We have to make a choice about how much memory to give the acceleration.
+
+277
+00:18:44,550 --> 00:18:47,040
+Ah, my machine has eight gigabytes.
+
+278
+00:18:47,040 --> 00:18:49,010
+And, I need some of that obviously for
+
+279
+00:18:49,010 --> 00:18:52,200
+the operating system, some of that for
+Eclipse.
+
+280
+00:18:52,200 --> 00:18:54,290
+Ah, I'm going to have to put aside some of it, ah,
+
+281
+00:18:54,290 --> 00:18:57,490
+every time I want to run these hardware
+accelerated managers.
+
+282
+00:18:57,490 --> 00:18:59,640
+The total amount I'm going to put aside is
+
+283
+00:18:59,640 --> 00:19:03,840
+for all emulators that are running at any
+one time.
+
+284
+00:19:03,840 --> 00:19:06,270
+Now normally I just have one emulator
+running.
+
+285
+00:19:06,270 --> 00:19:10,040
+Ah, what I found is with a emulator the
+Nexus 4 is that I
+
+286
+00:19:10,040 --> 00:19:14,980
+can ump down the actual amount of RAM I
+give it, say, from
+
+287
+00:19:14,980 --> 00:19:17,460
+1900 to about 1500, ah, and then that
+
+288
+00:19:17,460 --> 00:19:22,078
+comfortably fits inside, um, the Intel limit
+here
+
+289
+00:19:22,078 --> 00:19:28,250
+that I'm going to give the accelerator of
+say about two gigabytes or 2048 megabytes.
+
+290
+00:19:30,220 --> 00:19:33,150
+Um, so this memory allocation, I mean I'm
+choosing
+
+291
+00:19:33,150 --> 00:19:34,740
+to take away from the best of my system.
+
+292
+00:19:34,740 --> 00:19:37,420
+So you have to try and find a, strike a
+balance, with,
+
+293
+00:19:37,420 --> 00:19:42,240
+with what memory have on, ah, your, your
+laptop, or your, o-or your system
+
+294
+00:19:42,240 --> 00:19:46,820
+so  that you have enough memory to run Eclipse. And the, the, other tools.
+
+295
+00:19:46,820 --> 00:19:50,260
+Um, so ideally you have at least, uh, a four
+gigabyte machine.
+
+296
+00:19:50,260 --> 00:19:53,240
+Right, so let's go with 2048.
+
+297
+00:19:53,240 --> 00:19:55,410
+If you, um, decide
+
+298
+00:19:55,410 --> 00:20:02,426
+to play with this value, all you need to
+do is, uh, run this, um, installer
+
+299
+00:20:02,426 --> 00:20:07,620
+again.
+And then you can, ah, change the, ah, the amount of
+
+300
+00:20:07,620 --> 00:20:12,980
+memory that you've given the accelerator.
+Okay, so that's installing.
+
+301
+00:20:14,170 --> 00:20:16,860
+Ah, it's not going to take five minutes; it's
+going to be quicker than that.
+
+302
+00:20:16,860 --> 00:20:18,260
+And, let's, um,
+
+303
+00:20:20,600 --> 00:20:21,810
+go back to here.
+
+304
+00:20:21,810 --> 00:20:27,330
+Right, I should mention how we, we, we, ah, close our emulators.
+
+305
+00:20:27,330 --> 00:20:30,630
+You could click the power button but that
+doesn't actually, ah, stop them.
+
+306
+00:20:30,630 --> 00:20:34,730
+It's, ah, it's easier to turn them off,
+just close them.
+
+307
+00:20:34,730 --> 00:20:37,830
+Okay, right, so how's the Installer doing?
+
+308
+00:20:37,830 --> 00:20:45,748
+Right, once this is installed, ah, we're going to try, ah, running one of the emulators
+
+309
+00:20:45,748 --> 00:20:50,517
+again just to see what kind of speed-up we get here.
+
+310
+00:20:50,517 --> 00:20:52,537
+Okay, I need clips.
+
+311
+00:20:52,537 --> 00:20:56,056
+And go to my Android Virtual Device
+Manager.
+
+312
+00:20:56,056 --> 00:21:03,756
+Ah, let's start the Intel at level 10. Launch. [pause] It's working
+
+313
+00:21:03,756 --> 00:21:10,840
+and the emulator is running in fast vert
+mode, ah, so now
+
+314
+00:21:10,840 --> 00:21:18,386
+we should, ah, see an emulator that is, ah, fairly speedy.
+
+315
+00:21:18,386 --> 00:21:25,131
+Here we go. And, uh, uh, uh, almost a joy to, to, to develop one.
+
+316
+00:21:25,131 --> 00:21:28,891
+Okay, so that's, uh, everything we're going to say at this point. I'm
+
+317
+00:21:28,891 --> 00:21:33,917
+going to f-finally mention that you'll
+probably run into an issue or two.
+
+318
+00:21:33,917 --> 00:21:36,023
+Ah, maybe these, uh, this video has become a little
+
+319
+00:21:36,023 --> 00:21:37,360
+bit out of date, etcetera,
+
+320
+00:21:37,360 --> 00:21:41,890
+so do be sure to check the, ah, Coursera
+discussion groups.
+
+321
+00:21:41,890 --> 00:21:45,300
+And also if you have a specific problem, ah, try to find out
+
+322
+00:21:45,300 --> 00:21:47,900
+as much as you can about your system or
+the error message,
+
+323
+00:21:47,900 --> 00:21:49,630
+and then become a detective.
+
+324
+00:21:49,630 --> 00:21:52,770
+Use Google, use discussion groups,
+etcetera to perhaps try and
+
+325
+00:21:52,770 --> 00:21:55,870
+find someone that's had, run into a
+similar problem as you,
+
+326
+00:21:55,870 --> 00:21:58,970
+and see how they solved it.
+Right.
+
+327
+00:21:58,970 --> 00:22:01,740
+That's it for now. Uh, time for you to,
+
+328
+00:22:01,740 --> 00:22:06,240
+ah, play with your emulators and find out what works on your system.
+
+329
+00:22:06,240 --> 00:22:06,430
+Bye.
